@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 import { timeout } from 'rxjs/operators';
 
 @Injectable()
-export class TimeoutInterceptor implements NestInterceptor{
+export class TimeoutInterceptor implements NestInterceptor {
   intercept(
     context: ExecutionContext,
     next: CallHandler<any>,
